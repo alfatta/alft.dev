@@ -14,7 +14,8 @@
         <span class="font-bold">exceeds expectations</span>.
       </p>
     </div>
-    <img src="/img/profile-square.webp"
-      class="w-24 md:w-72 object-cover aspect-[3/4] rounded-2xl -rotate-3 md:rotate-3 shadow-lg shadow-indigo-600" />
+    <NuxtImg src="/img/profile-square.webp"
+      class="w-24 md:w-72 object-cover aspect-[3/4] rounded-2xl -rotate-3 md:rotate-3 shadow-lg shadow-indigo-600"
+      alt="Alfatta Rezqa" />
   </div>
 </template>

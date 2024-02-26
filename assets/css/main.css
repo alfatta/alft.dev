@@ -1,0 +1,7 @@
+@tailwind base;
+
+@layer base {
+  a {
+    @apply text-indigo-950 dark:text-indigo-200 hover:text-indigo-600 hover:dark:text-indigo-400;
+  }
+}

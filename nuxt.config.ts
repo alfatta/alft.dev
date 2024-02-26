@@ -18,7 +18,11 @@ export default defineNuxtConfig({
       ],
       link: [{ rel: "icon", href: "/img/profile-circle.webp" }],
       script: [
-        // { defer: 'true', src: 'https://analytics.us.umami.is/script.js', 'data-website-id': '180c0c1d-ef9f-4955-955a-3af09b2bcbcd' }
+        {
+          defer: "true",
+          src: "https://analytics.us.umami.is/script.js",
+          "data-website-id": "180c0c1d-ef9f-4955-955a-3af09b2bcbcd",
+        },
       ],
       bodyAttrs: {
         class: "bg-stone-100 dark:bg-slate-900",

@@ -27,6 +27,9 @@ export default defineNuxtConfig({
       bodyAttrs: {
         class: "bg-stone-100 dark:bg-slate-900",
       },
+      htmlAttrs: {
+        lang: "en",
+      },
     },
   },
   devtools: { enabled: false },
@@ -34,6 +37,7 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "@nuxtjs/google-fonts",
     "@nuxtjs/color-mode",
+    "@nuxt/image",
   ],
   googleFonts: {
     families: {

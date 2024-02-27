@@ -10,16 +10,16 @@ const toTop = () => scrollTo(0, 0)
         <p class="text-sm font-light">Connect with me via:</p>
         <div class="flex items-center space-x-4">
           <NuxtLink to="https://github.com/alfatta" target="_blank" aria-label="Alfatta's Github">
-            <IconGithub class="w-5 h-5" />
+            <Icon name="fa6-brands:github" class="w-5 h-5" />
           </NuxtLink>
           <NuxtLink to="https://instagram.com/alfattarezqa" target="_blank" aria-label="Alfatta's Instagram">
-            <IconInstagram class="w-5 h-5" />
+            <Icon name="fa6-brands:instagram" class="w-5 h-5" />
           </NuxtLink>
           <NuxtLink to="https://linkedin.com/in/alfattarezqa" target="_blank" aria-label="Alfatta's LinkedIn">
-            <IconLinkedIn class="w-5 h-5" />
+            <Icon name="fa6-brands:linkedin" class="w-5 h-5" />
           </NuxtLink>
           <NuxtLink to="https://x.com/alfattarezqa" target="_blank" aria-label="Alfatta's X">
-            <IconX class="w-5 h-5" />
+            <Icon name="fa6-brands:x-twitter" class="w-5 h-5" />
           </NuxtLink>
         </div>
       </div>

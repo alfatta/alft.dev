@@ -30,6 +30,7 @@ export default defineNuxtConfig({
     "@nuxtjs/google-fonts",
     "@nuxtjs/color-mode",
     "@nuxt/image",
+    "nuxt-icon",
     // keep sitemap in latest order
     "@nuxtjs/sitemap",
   ],

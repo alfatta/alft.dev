@@ -30,10 +30,12 @@ export default defineNuxtConfig({
     "@nuxtjs/google-fonts",
     "@nuxtjs/color-mode",
     "@nuxt/image",
+    // keep sitemap in latest order
+    "@nuxtjs/sitemap",
   ],
   googleFonts: {
     families: {
-      "Plus Jakarta Sans": "300..700",
+      "Plus Jakarta Sans": [200, 300, 400, 500, 600, 700, 800],
     },
     display: "swap",
   },

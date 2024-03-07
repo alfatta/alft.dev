@@ -4,7 +4,7 @@ import appConfig from '@/config/app'
 useSeoMeta({
   description: appConfig.appDescription,
   ogType: 'website',
-  ogUrl: window.location.href,
+  ogUrl: 'https://alft.dev',
   ogImage: "https://alft.dev/img/og.png",
   ogTitle: appConfig.appTitle,
   ogDescription: appConfig.appDescription,

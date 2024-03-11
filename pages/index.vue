@@ -14,7 +14,7 @@
         <span class="font-bold">exceeds expectations</span>.
       </p>
       <button type="button"
-        class="text-xl bg-indigo-700 hover:bg-indigo-800 focus:ring-4 focus:ring-indigo-300 font-medium rounded-lg px-8 py-4 dark:bg-indigo-600 dark:hover:bg-indigo-700 focus:outline-none dark:focus:ring-indigo-800">
+        class="text-xl text-indigo-50 bg-indigo-700 hover:bg-indigo-800 focus:ring-4 focus:ring-indigo-300 font-medium rounded-lg px-8 py-4 dark:bg-indigo-600 dark:hover:bg-indigo-700 focus:outline-none dark:focus:ring-indigo-800">
         Hire Me
       </button>
     </div>

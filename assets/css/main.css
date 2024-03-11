@@ -9,4 +9,8 @@
   a {
     @apply text-indigo-950 dark:text-indigo-200 hover:text-indigo-600 hover:dark:text-indigo-400;
   }
+
+  *::selection {
+    @apply bg-indigo-300
+  }
 }

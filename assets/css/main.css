@@ -1,6 +1,9 @@
 @tailwind base;
 
 @layer base {
+  body {
+    @apply bg-stone-100 dark:bg-slate-900;
+  }
   a {
     @apply text-indigo-950 dark:text-indigo-200 hover:text-indigo-600 hover:dark:text-indigo-400;
   }

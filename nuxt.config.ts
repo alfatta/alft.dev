@@ -33,7 +33,6 @@ export default defineNuxtConfig({
           "data-website-id": appConfig.umamiSiteId,
         },
       ],
-      bodyAttrs: { class: "" },
       htmlAttrs: { lang: "en" },
     },
   },
@@ -47,9 +46,6 @@ export default defineNuxtConfig({
     // keep sitemap in latest order
     "@nuxtjs/sitemap",
   ],
-  image: {
-    provider: "netlify",
-  },
   googleFonts: {
     families: {
       "Plus Jakarta Sans": [200, 300, 400, 500, 600, 700, 800],

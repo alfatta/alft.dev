@@ -1,5 +1,5 @@
 export default {
-  appTitle: "Alfatta Rezqa",
+  appTitle: "Alfatta Rezqa · Software Developer",
   appDescription:
     "Highly motivated software developer with >6 years of experience in designing and implementing software solutions. Dedicated to building high-quality software that exceeds expectations.",
   appKeyword:

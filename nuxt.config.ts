@@ -33,7 +33,6 @@ export default defineNuxtConfig({
           "data-website-id": appConfig.umamiSiteId,
         },
       ],
-      bodyAttrs: { class: "" },
       htmlAttrs: { lang: "en" },
     },
   },

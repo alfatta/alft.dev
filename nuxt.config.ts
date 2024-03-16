@@ -43,9 +43,19 @@ export default defineNuxtConfig({
     "@nuxtjs/color-mode",
     "@nuxt/image",
     "nuxt-icon",
+    "@nuxt/content",
     // keep sitemap in latest order
     "@nuxtjs/sitemap",
   ],
+  content: {
+    highlight: {
+      theme: {
+        default: "github-light",
+        dark: "github-dark",
+        sepia: "monokai",
+      },
+    },
+  },
   googleFonts: {
     families: {
       "Plus Jakarta Sans": [200, 300, 400, 500, 600, 700, 800],

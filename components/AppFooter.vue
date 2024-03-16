@@ -36,7 +36,7 @@ const toTop = () => scrollTo(0, 0)
       <div class="col-span-6 md:text-right md:col-span-3">
         <p class="mb-4 text-xs font-bold text-slate-500 dark:text-slate-400">Links</p>
         <div class="flex flex-col space-y-2">
-          <NuxtLink to="#" class="text-sm font-medium" aria-label="Article">Article</NuxtLink>
+          <NuxtLink to="/articles" class="text-sm font-medium" aria-label="Article">Article</NuxtLink>
           <NuxtLink to="#" class="text-sm font-medium" aria-label="Weapon">Weapon</NuxtLink>
           <NuxtLink to="#" class="text-sm font-medium" aria-label="Logs">Logs</NuxtLink>
         </div>

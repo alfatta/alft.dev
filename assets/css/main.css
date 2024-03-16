@@ -11,6 +11,6 @@
   }
 
   *::selection {
-    @apply bg-indigo-300
+    @apply bg-indigo-300 bg-opacity-50;
   }
 }

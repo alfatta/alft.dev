@@ -1,3 +1,7 @@
+<script setup lang="ts">
+const { data: articles } = await useAsyncData('articles', () => queryContent('articles').sort({ date: -1 }).limit(5).find())
+</script>
+
 <template>
   <div class="py-10 md:py-32 flex flex-col-reverse md:flex-row items-center gap-10 md:gap-20">
     <div class="flex-1 flex flex-col items-center md:items-start">
@@ -22,14 +26,17 @@
       class="w-24 md:w-72 object-cover aspect-[3/4] rounded-2xl -rotate-3 md:rotate-3 shadow-lg shadow-indigo-600"
       alt="Alfatta Rezqa" />
   </div>
-  <div class="grid grid-cols-12 gap-4">
-    <div class="col-span-12 md:col-span-8"></div>
-    <div class="col-span-12 md:col-span-4">
+  <div class="grid grid-cols-12 gap-8">
+    <div class="col-span-12 md:col-span-4 md:order-1">
       <h3 class="font-bold text-xl mb-4">Work Experience</h3>
       <WorkExperience :max="3" class="mb-8" more-link="/about" />
       <h3 class="font-bold text-xl mb-4">Education</h3>
       <Education :max="3" class="mb-8" more-link="/about" />
     </div>
+    <div class="col-span-12 md:col-span-8">
+      <div class="flex flex-col gap-4">
+        <Article v-for="article in articles" :key="article._id" :article="article" />
+      </div>
+    </div>
   </div>
-  <div class="mb-20"></div>
 </template>

@@ -22,7 +22,7 @@
       class="w-24 md:w-72 object-cover aspect-[3/4] rounded-2xl -rotate-3 md:rotate-3 shadow-lg shadow-indigo-600"
       alt="Alfatta Rezqa" />
   </div>
-  <div class="grid grid-cols-12 gap-4">
+  <!-- <div class="grid grid-cols-12 gap-4">
     <div class="col-span-12 md:col-span-8"></div>
     <div class="col-span-12 md:col-span-4">
       <h3 class="font-bold text-xl mb-4">Work Experience</h3>
@@ -30,6 +30,5 @@
       <h3 class="font-bold text-xl mb-4">Education</h3>
       <Education :max="3" class="mb-8" more-link="/about" />
     </div>
-  </div>
-  <div class="mb-20"></div>
+  </div> -->
 </template>
